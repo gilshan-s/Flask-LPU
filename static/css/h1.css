@@ -1,0 +1,14 @@
+.a{
+    color: blue;
+    background-color: turquoise;
+    border-radius: 20px;
+}
+
+h1{
+    background-color: aqua;
+   
+}
+body{
+     background-image: url('/static/images/l.jpeg');
+    background-size:cover;
+}

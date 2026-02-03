@@ -1,0 +1,11 @@
+from zipfile import * 
+f1=ZipFile("Flask_LPU","r",ZIP_STORED)
+obj1=f1.namelist()
+print(obj1)
+print()
+# print("Reading operation is successfull ...")
+# print()
+# data=f1.read("email.txt")
+# print(data.decode())
+f1.close()
+print()
